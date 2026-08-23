@@ -5,8 +5,6 @@
 **Team:** MindSpark *(We are a team of 1st-Year Students!)* 🎓  
 **Event:** Exasol AI Build Challenge 2026 (ChennAI Summit)
 
-*👉 **[Watch our 2-Minute Demo Video Here] (Link your YouTube/Loom video here)***
-
 ### Live Detection Viewer
 ![Detection Screenshot 1](./assets/screenshot1.png)
 <br>
@@ -58,7 +56,7 @@ Because this project was built for the **Exasol AI Build Challenge**, we specifi
 ## Overcoming Technical Hurdles - Hackathon Engineering
 
 *   **Data Balancing:** The original dataset was heavily skewed. We wrote a custom Python script to dynamically downsample the data, preventing the AI from being biased toward common objects (cars) over rare ones (potholes).
-*   **Speed vs. Accuracy:** We utilized YOLOv8 Nano and trained it for exactly 40 epochs—finding the perfect sweet spot between lightweight, real-time inference speed and detection accuracy.
+*   **Speed vs. Accuracy:** We utilized YOLOv8 Nano and trained it for more than 40 epochs—finding the perfect sweet spot between lightweight, real-time inference speed and detection accuracy.
 *   **Database Bypassing:** We bypassed standard ORM bottlenecks by writing raw batch-insertion SQL queries directly to the Exasol backend to ensure the dashboard never lags.
 *   **Edge-Computing Architecture (First-Year Initiative):** As 1st-year students, we wanted to push our limits. Instead of a standard cloud deployment, we intentionally deployed our Exasol analytics database inside a **local Docker container**. This mimics a true "edge-computing" environment (like an onboard computer in a garbage truck), ensuring zero-latency data processing and maximum data privacy without relying on internet connectivity!
 
