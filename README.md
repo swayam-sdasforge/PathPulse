@@ -87,6 +87,7 @@ If you want to spin this up on your own machine, you'll need the `exasol-nano` D
 docker run -p 8563:8563 exasol/exasol-nano
 ```
 
+
 **2. Install the Requirements:**
 ```bash
 pip install streamlit ultralytics pyexasol pandas pillow
